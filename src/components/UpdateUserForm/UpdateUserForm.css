@@ -1,0 +1,94 @@
+.form {
+  box-sizing: border-box;
+  display: block;
+  padding: 5px 15px;
+  width: 300px;
+  margin: 0 auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.inputGroup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+
+.inputGroup label {
+  flex-basis: 30%;
+  font-size: 15px;
+  text-align: left;
+  color: white;
+}
+
+.input {
+  flex-basis: 65%;
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+  max-width: 100px;
+}
+
+.input:focus {
+  border-color: #00bc77;
+  outline: none;
+  box-shadow: 0 0 3px rgba(0, 188, 119, 0.5);
+}
+
+.disabledInput {
+  background-color: #f0f0f0;
+  color: #888;
+  cursor: not-allowed;
+  border-color: #ddd;
+}
+
+.error {
+  color: red;
+  margin-top: 16px;
+  font-size: 14px;
+}
+
+.buttonGroup {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.saveButton,
+.cancelButton {
+  border: none;
+  padding: 5px 30px;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  color: white;
+  margin-top: 10px;
+}
+
+.saveButton {
+  background-color: #00bc77;
+}
+
+.saveButton:disabled {
+  background-color: #b2d9b2;
+  cursor: not-allowed;
+}
+
+.saveButton:hover:not(:disabled) {
+  background-color: #009a5a;
+}
+
+.cancelButton {
+  background-color: #00bc77;
+}
+
+.cancelButton:hover {
+  background-color: #009a5a;
+}
+
+.cancelButton:active {
+  background-color: #007d4d;
+}

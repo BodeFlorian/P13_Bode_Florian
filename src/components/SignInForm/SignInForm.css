@@ -1,0 +1,58 @@
+.signInContent {
+  box-sizing: border-box;
+  background-color: white;
+  display: block;
+  width: 300px;
+  margin-left: 141px;
+  margin-right: 141px;
+  padding: 32px;
+  text-align: center;
+  unicode-bidi: isolate;
+}
+
+.signInIcon {
+  font-size: 1rem;
+}
+
+.inputWrapper {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-bottom: 1rem;
+}
+
+.inputWrapper label {
+  font-weight: bold;
+}
+
+.inputWrapper input {
+  padding: 5px;
+  font-size: 1.2rem;
+}
+
+.inputRemember {
+  display: flex;
+}
+
+.inputRemember label {
+  margin-left: 0.25rem;
+}
+
+.signInButton {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-top: 1rem;
+  border: none;
+  background-color: #00bc77;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.signInButton:hover {
+  background-color: #00a563;
+}

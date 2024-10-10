@@ -1,0 +1,38 @@
+.featureItem {
+  display: block;
+  flex-basis: 0%;
+  flex-grow: 1;
+  flex-direction: column;
+  flex-shrink: 1;
+  align-items: center;
+  padding: 40px;
+  text-align: center;
+  unicode-bidi: isolate;
+}
+
+.featureIcon {
+  width: 100px;
+  border: 10px solid #00bc77;
+  border-radius: 50%;
+  padding: 1rem;
+}
+
+.featureItemTitle {
+  color: #222;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: baseline;
+  width: auto;
+  margin: 1rem 0;
+}
+
+.featureDescription {
+  color: #555;
+}
+
+@media (min-width: 920px) {
+  .featureItem {
+    flex-direction: row;
+  }
+}

@@ -1,0 +1,29 @@
+.main {
+  flex: 1;
+}
+
+.bg-dark {
+  width: 100%;
+  background-color: #12002b;
+}
+.sign-in {
+  display: flex;
+}
+
+.sign-in-content {
+  box-sizing: border-box;
+  background-color: white;
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 3rem;
+  padding: 2rem;
+  margin-bottom: 13.9rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sign-in-icon {
+  font-size: 2rem;
+}
